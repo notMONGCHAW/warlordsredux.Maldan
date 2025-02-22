@@ -124,7 +124,7 @@ class RemoteControl {
         rearm = 300;
         requirements[] = {"A"};
         spawn = "B_UAV_02_dynamicLoadout_F";
-    }; // "Greyhawk"
+    }; // "MQ-4R Greyhawk (Recon)"
 
     class B_UAV_02_dynamicLoadout_F {
         cost = 8000;
@@ -154,22 +154,22 @@ class RemoteControl {
         };
     }; // "Falcon"
 
-    class B_UAV_05_F {
-        cost = 22500;
-        killReward = 650;
-        rearm = 500;
-        requirements[] = {"A"};
+    // class B_UAV_05_F {
+    //     cost = 22500;
+    //     killReward = 650;
+    //     rearm = 500;
+    //     requirements[] = {"A"};
 
-        class Pilot: WLTurretDefaults {
-            turret[] = { -1 };
-            removeMagazines[] = {
-                "120Rnd_CMFlare_Chaff_Magazine"
-            };
-            removeWeapons[] = {};
-            addMagazines[] = {
-                "240Rnd_CMFlare_Chaff_Magazine"
-            };
-            addWeapons[] = {};
-        };
-    }; // "UCAV Sentinel"
+    //     class Pilot: WLTurretDefaults {
+    //         turret[] = { -1 };
+    //         removeMagazines[] = {
+    //             "120Rnd_CMFlare_Chaff_Magazine"
+    //         };
+    //         removeWeapons[] = {};
+    //         addMagazines[] = {
+    //             "240Rnd_CMFlare_Chaff_Magazine"
+    //         };
+    //         addWeapons[] = {};
+    //     };
+    // }; // "UCAV Sentinel"
 };

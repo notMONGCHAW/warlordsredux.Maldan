@@ -122,35 +122,35 @@ class SectorDefense {
         requirements[] = {};
     }; // "Mk32 GMG 20mm (Raised)"
 
-    // class B_Minigun_01_high_F {
-    //     name = "Mk30X Minigun (Raised)";
-    //     cost = 250;
-    //     spawn = "B_G_HMG_02_high_F";
-    //     variant = 1;
-    //     requirements[] = {};
-    //     rearm = 300;
-    //     killReward = 100;
-    //     loadable[] = {0, -2.5, 0};
-    //
-    //     class Gunner: WLTurretDefaults {
-    //         addMagazines[] = {
-    //             "2000Rnd_65x39_Belt_Tracer_Yellow",
-    //             "2000Rnd_65x39_Belt_Tracer_Yellow",
-    //             "2000Rnd_65x39_Belt_Tracer_Yellow",
-    //             "2000Rnd_65x39_Belt_Tracer_Yellow"
-    //         };
-    //         addWeapons[] = {
-    //             "LMG_Minigun_Transport"
-    //         };
-    //         removeMagazines[] = {
-    //             "100Rnd_127x99_mag_Tracer_Yellow",
-    //         };
-    //         removeWeapons[] = {
-    //             "HMG_M2_Mounted"
-    //         };
-    //         turret[] = { 0 };
-    //     };
-    // };
+    class B_Minigun_01_high_F {
+        name = "Mk30X Minigun (Raised)";
+        cost = 250;
+        spawn = "B_G_HMG_02_high_F";
+        variant = 1;
+        requirements[] = {};
+        rearm = 300;
+        killReward = 100;
+        loadable[] = {0, -2.5, 0};
+    
+        class Gunner: WLTurretDefaults {
+            addMagazines[] = {
+                "2000Rnd_65x39_Belt_Tracer_Yellow",
+                "2000Rnd_65x39_Belt_Tracer_Yellow",
+                "2000Rnd_65x39_Belt_Tracer_Yellow",
+                "2000Rnd_65x39_Belt_Tracer_Yellow"
+            };
+            addWeapons[] = {
+                "LMG_Minigun_Transport"
+            };
+            removeMagazines[] = {
+                "100Rnd_127x99_mag_Tracer_Yellow",
+            };
+            removeWeapons[] = {
+                "HMG_M2_Mounted"
+            };
+            turret[] = { 0 };
+        };
+    }; //Mk30X Minigun (Raised)
 
     class B_static_AT_F {
         cost = 300;
@@ -205,7 +205,7 @@ class SectorDefense {
             };
             turret[] = { 0 };
         };
-    };
+    }; // Mk30 HMG Auto Turret
 
     class B_static_AT_UP_F {
         cost = 590;
@@ -247,7 +247,7 @@ class SectorDefense {
             };
             turret[] = { 0 };
         };
-    };
+    }; // Static AT Launcher (UP)
 
     class B_GMG_01_A_F {
         cost = 650;
@@ -257,7 +257,7 @@ class SectorDefense {
         offset[] = {0, 3, 0};
         rearm = 300;
         requirements[] = {};
-    };
+    }; // Mk32 GMG Auto Turret
 
     class Land_Communication_F {
         cost = 2500;
@@ -281,18 +281,18 @@ class SectorDefense {
         requirements[] = {};
     }; // "Mortar"
 
-    class B_Ship_Gun_01_F {
-        cost = 10000;
-        disallowMagazines[] = {
-            "magazine_ShipCannon_120mm_HE_cluster_shells_x2",
-            "magazine_ShipCannon_120mm_mine_shells_x6",
-            "magazine_ShipCannon_120mm_AT_mine_shells_x6"
-        };
-        killReward = 600;
-        offset[] = {0, 9, 0};
-        requirements[] = {};
-        rearm = 2700;
-    }; // "MK45 Hammer"
+    // class B_Ship_Gun_01_F {
+    //     cost = 10000;
+    //     disallowMagazines[] = {
+    //         "magazine_ShipCannon_120mm_HE_cluster_shells_x2",
+    //         "magazine_ShipCannon_120mm_mine_shells_x6",
+    //         "magazine_ShipCannon_120mm_AT_mine_shells_x6"
+    //     };
+    //     killReward = 600;
+    //     offset[] = {0, 9, 0};
+    //     requirements[] = {};
+    //     rearm = 2700;
+    // }; // "MK45 Hammer"
 
     // class B_Ship_MRLS_01_F {
     //     cost = 30000;
