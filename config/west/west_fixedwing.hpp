@@ -132,24 +132,24 @@ class FixedWing {
     //     requirements[] = {"A"};
     // }; // "V-44 X Blackfish (Armed)"
 
-    // class B_Plane_CAS_01_dynamicLoadout_F {
-    //     cost = 15000;
-    //     killReward = 800;
-    //     rearm = 900;
-    //     requirements[] = {"A"};
+    class B_Plane_CAS_01_dynamicLoadout_F {
+        cost = 15000;
+        killReward = 800;
+        rearm = 900;
+        requirements[] = {"A"};
 
-    //     class Pilot: WLTurretDefaults {
-    //         turret[] = { -1 };
-    //         removeMagazines[] = {
-    //             "120Rnd_CMFlare_Chaff_Magazine"
-    //         };
-    //         removeWeapons[] = {};
-    //         addMagazines[] = {
-    //             "240Rnd_CMFlare_Chaff_Magazine"
-    //         };
-    //         addWeapons[] = {};
-    //     };
-    // }; // "A-164 Wipeout (CAS)"
+        class Pilot: WLTurretDefaults {
+            turret[] = { -1 };
+            removeMagazines[] = {
+                "120Rnd_CMFlare_Chaff_Magazine"
+            };
+            removeWeapons[] = {};
+            addMagazines[] = {
+                "240Rnd_CMFlare_Chaff_Magazine"
+            };
+            addWeapons[] = {};
+        };
+    }; // "A-164 Wipeout (CAS)"
 
     // class B_Plane_Fighter_04_F {
     //     allowPylonMagazines[] = {

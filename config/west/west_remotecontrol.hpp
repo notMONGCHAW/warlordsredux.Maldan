@@ -126,13 +126,13 @@ class RemoteControl {
         spawn = "B_UAV_02_dynamicLoadout_F";
     }; // "MQ-4R Greyhawk (Recon)"
 
-    class B_UAV_02_dynamicLoadout_F {
-        cost = 8000;
-        hasHMD = 1;
-        killReward = 600;
-        rearm = 300;
-        requirements[] = {"A"};
-    }; // "Greyhawk"
+    // class B_UAV_02_dynamicLoadout_F {
+    //     cost = 8000;
+    //     hasHMD = 1;
+    //     killReward = 600;
+    //     rearm = 300;
+    //     requirements[] = {"A"};
+    // }; // "Greyhawk"
 
     class B_T_UAV_03_dynamicLoadout_F {
         cost = 11000;
