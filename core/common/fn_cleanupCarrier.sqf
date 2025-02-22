@@ -1,32 +1,6 @@
 #include "..\warlords_constants.inc"
 
-call WL2_fnc_prepareRappel;
-
-private _carrierMarkers = [
-	"Carrier1Corner1",
-	"Carrier1Corner2",
-	"Carrier1Corner3",
-	"Carrier1Corner4",
-	"Carrier1Corner5",
-	"Carrier1Corner6",
-	"Carrier1Corner7",
-	"Carrier1Corner8",
-	"Carrier1Corner9"
-];
-private _carrierMarkerPos = _carrierMarkers apply {getMarkerPos _x};
-private _carrierLines = [];
-for "_i" from 0 to (count _carrierMarkers - 1) do {
-	private _markerPos = _carrierMarkerPos # _i;
-    _carrierLines pushBack (_markerPos # 0);
-    _carrierLines pushBack (_markerPos # 1);
-};
-_carrierLines pushBack (_carrierMarkerPos # 0 # 0);
-_carrierLines pushBack (_carrierMarkerPos # 0 # 1);
-
-private _lineMarker = createMarkerLocal ["carrierPolyline", Carrier1];
-_lineMarker setMarkerShapeLocal "POLYLINE";
-_lineMarker setMarkerColorLocal "ColorRed";
-_lineMarker setMarkerPolylineLocal _carrierLines;
+private _carriers = allMissionObjects "Land_Carrier_01_base_F";
 
 private _changeAttackStatus = {
     params ["_carrier", "_markers"];
@@ -39,12 +13,8 @@ private _changeAttackStatus = {
         _x hideObject !_isUnderAttack;
     } forEach _carrierProps;
 
-    private _markers = [
-        "Carrier1Rappel1Marker",
-        "Carrier1Rappel2Marker",
-        "Carrier1Rappel3Marker",
-        "Carrier1Rappel4Marker"
-    ];
+    private _carrierData = _sector getVariable ["WL_aircraftCarrier", []];
+    private _markers = _carrierData # 3;
 
     if (_isUnderAttack) then {
         {
@@ -57,8 +27,6 @@ private _changeAttackStatus = {
     };
 };
 
-private _carriers = [Carrier1];
-
 {
     private _carrier = _x;
     private _sector = (BIS_WL_allSectors select {
@@ -70,6 +38,26 @@ private _carriers = [Carrier1];
         _x inArea (_sector getVariable "objectAreaComplete") && { damage _x == 0.5 };
     };
     _carrier setVariable ["WL_carrierProps", _carrierProps];
+
+    private _carrierData = _sector getVariable ["WL_aircraftCarrier", []];
+    private _carrierMarkers = _carrierData # 2;
+
+    private _carrierMarkerPos = _carrierMarkers apply {getMarkerPos _x};
+    private _carrierLines = [];
+    for "_i" from 0 to (count _carrierMarkers - 1) do {
+        private _markerPos = _carrierMarkerPos # _i;
+        _carrierLines pushBack (_markerPos # 0);
+        _carrierLines pushBack (_markerPos # 1);
+    };
+    _carrierLines pushBack (_carrierMarkerPos # 0 # 0);
+    _carrierLines pushBack (_carrierMarkerPos # 0 # 1);
+
+    private _lineMarker = createMarkerLocal [format ["carrierPolyline_%1", _forEachIndex], _carrier];
+    _lineMarker setMarkerShapeLocal "POLYLINE";
+    _lineMarker setMarkerColorLocal "ColorRed";
+    _lineMarker setMarkerPolylineLocal _carrierLines;
+
+    [_carrierData] call WL2_fnc_prepareRappel;
 } forEach _carriers;
 
 // Ensure sync
