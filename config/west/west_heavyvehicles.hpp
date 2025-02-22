@@ -161,99 +161,99 @@ class HeavyVehicles {
         };
     };
 
-    class B_AFV_Wheeled_01_export_cannon_F {
-        aps = 2;
-        capValue = 4;
-        cost = 3700;
-        description = "Rhino MGS-E is a variant of the Rhino MGS armed with a weaker 105mm cannon.";
-        killReward = 400;
-        name = "Rhino MGS-E";
-        rearm = 500;
-        requirements[] = {};
-        spawn = "B_AFV_Wheeled_01_up_cannon_F";
-        variant = 1;
+    // class B_AFV_Wheeled_01_export_cannon_F {
+    //     aps = 2;
+    //     capValue = 4;
+    //     cost = 3700;
+    //     description = "Rhino MGS-E is a variant of the Rhino MGS armed with a weaker 105mm cannon.";
+    //     killReward = 400;
+    //     name = "Rhino MGS-E";
+    //     rearm = 500;
+    //     requirements[] = {};
+    //     spawn = "B_AFV_Wheeled_01_up_cannon_F";
+    //     variant = 1;
 
-        class Gunner: WLTurretDefaults {
-            addMagazines[] = {
-                "40Rnd_105mm_APFSDS_T_Red"
-            };
-            addWeapons[] = {
-                "cannon_105mm"
-            };
-            removeMagazines[] = {
-                "12Rnd_120mm_APFSDS_shells_Tracer_Red",
-                "8Rnd_120mm_HE_shells_Tracer_Red",
-                "8Rnd_120mm_HEAT_MP_T_Red",
-                "4Rnd_120mm_LG_cannon_missiles"
-            };
-            removeWeapons[] = {
-                "cannon_120mm"
-            };
-            turret[] = { 0 };
-        };
-    };
+    //     class Gunner: WLTurretDefaults {
+    //         addMagazines[] = {
+    //             "40Rnd_105mm_APFSDS_T_Red"
+    //         };
+    //         addWeapons[] = {
+    //             "cannon_105mm"
+    //         };
+    //         removeMagazines[] = {
+    //             "12Rnd_120mm_APFSDS_shells_Tracer_Red",
+    //             "8Rnd_120mm_HE_shells_Tracer_Red",
+    //             "8Rnd_120mm_HEAT_MP_T_Red",
+    //             "4Rnd_120mm_LG_cannon_missiles"
+    //         };
+    //         removeWeapons[] = {
+    //             "cannon_120mm"
+    //         };
+    //         turret[] = { 0 };
+    //     };
+    // };
 
-    class B_AFV_Wheeled_01_cannon_F {
-        aps = 2;
-        capValue = 4;
-        cost = 4500;
-        killReward = 450;
-        rearm = 500;
-        requirements[] = {};
-    }; // "Rhino MGS"
+    // class B_AFV_Wheeled_01_cannon_F {
+    //     aps = 2;
+    //     capValue = 4;
+    //     cost = 4500;
+    //     killReward = 450;
+    //     rearm = 500;
+    //     requirements[] = {};
+    // }; // "Rhino MGS"
 
-    class B_AFV_Wheeled_01_up_cannon_F {
-        aps = 2;
-        capValue = 4;
-        cost = 5000;
-        killReward = 500;
-        rearm = 500;
-        requirements[] = {};
-    }; // "Rhino MGS UP"
+    // class B_AFV_Wheeled_01_up_cannon_F {
+    //     aps = 2;
+    //     capValue = 4;
+    //     cost = 5000;
+    //     killReward = 500;
+    //     rearm = 500;
+    //     requirements[] = {};
+    // }; // "Rhino MGS UP"
 
-    class B_MBT_01_cannon_F {
-        aps = 3;
-        capValue = 4;
-        cost = 5800;
-        disallowMagazines[] = {
-            "4Rnd_120mm_LG_cannon_missiles"
-        };
-        killReward = 450;
-        rearm = 600;
-        requirements[] = {};
-    }; // "M2A1 Slammer"
+    // class B_MBT_01_cannon_F {
+    //     aps = 3;
+    //     capValue = 4;
+    //     cost = 5800;
+    //     disallowMagazines[] = {
+    //         "4Rnd_120mm_LG_cannon_missiles"
+    //     };
+    //     killReward = 450;
+    //     rearm = 600;
+    //     requirements[] = {};
+    // }; // "M2A1 Slammer"
 
-    class B_MBT_01_TUSK_F {
-        aps = 3;
-        capValue = 4;
-        cost = 6500;
-        disallowMagazines[] = {
-            "4Rnd_120mm_LG_cannon_missiles"
-        };
-        killReward = 500;
-        rearm = 600;
-        requirements[] = {};
-    }; // "M2A1 Slammer UP"
+    // class B_MBT_01_TUSK_F {
+    //     aps = 3;
+    //     capValue = 4;
+    //     cost = 6500;
+    //     disallowMagazines[] = {
+    //         "4Rnd_120mm_LG_cannon_missiles"
+    //     };
+    //     killReward = 500;
+    //     rearm = 600;
+    //     requirements[] = {};
+    // }; // "M2A1 Slammer UP"
 
-    class B_MBT_03_cannon_F {
-        aps = 3;
-        capValue = 4;
-        cost = 8000;
-        disallowMagazines[] = {
-            "4Rnd_120mm_LG_cannon_missiles"
-        };
-        killReward = 500;
-        name = "M52 Kuma";
-        rearm = 600;
-        requirements[] = {};
-        spawn = "I_MBT_03_cannon_F";
-        textures[] = {
-            "Img\camo\kuma01.jpg",
-            "Img\camo\kuma02.jpg",
-            "Img\camo\kuma03.jpg",
-            "\a3\Armor_F\Data\camonet_NATO_Desert_CO.paa"
-        };
-    };
+    // class B_MBT_03_cannon_F {
+    //     aps = 3;
+    //     capValue = 4;
+    //     cost = 8000;
+    //     disallowMagazines[] = {
+    //         "4Rnd_120mm_LG_cannon_missiles"
+    //     };
+    //     killReward = 500;
+    //     name = "M52 Kuma";
+    //     rearm = 600;
+    //     requirements[] = {};
+    //     spawn = "I_MBT_03_cannon_F";
+    //     textures[] = {
+    //         "Img\camo\kuma01.jpg",
+    //         "Img\camo\kuma02.jpg",
+    //         "Img\camo\kuma03.jpg",
+    //         "\a3\Armor_F\Data\camonet_NATO_Desert_CO.paa"
+    //     };
+    //};
 
     // class B_MBT_01_TUSK_Railgun_F {
     //     aps = 3;
@@ -288,28 +288,28 @@ class HeavyVehicles {
     //     };
     // };
 
-    class B_MBT_01_arty_F {
-        aps = 1;
-        capValue = 4;
-        cost = 20000;
-        disallowMagazines[] = {
-            "2Rnd_155mm_Mo_Cluster",
-            "2Rnd_155mm_Mo_Cluster_O"
-        };
-        killReward = 600;
-        rearm = 1800;
-        requirements[] = {};
-    }; // "M4 Scorcher"
+    // class B_MBT_01_arty_F {
+    //     aps = 1;
+    //     capValue = 4;
+    //     cost = 20000;
+    //     disallowMagazines[] = {
+    //         "2Rnd_155mm_Mo_Cluster",
+    //         "2Rnd_155mm_Mo_Cluster_O"
+    //     };
+    //     killReward = 600;
+    //     rearm = 1800;
+    //     requirements[] = {};
+    // }; // "M4 Scorcher"
 
-    class B_MBT_01_mlrs_F {
-        aps = 1;
-        capValue = 4;
-        cost = 20000;
-        disallowMagazines[] = {
-            "12Rnd_230mm_rockets_cluster"
-        };
-        killReward = 600;
-        rearm = 1800;
-        requirements[] = {};
-    }; // "M5 Sandstorm MLRS"
+    // class B_MBT_01_mlrs_F {
+    //     aps = 1;
+    //     capValue = 4;
+    //     cost = 20000;
+    //     disallowMagazines[] = {
+    //         "12Rnd_230mm_rockets_cluster"
+    //     };
+    //     killReward = 600;
+    //     rearm = 1800;
+    //     requirements[] = {};
+    // }; // "M5 Sandstorm MLRS"
 };

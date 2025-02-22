@@ -235,7 +235,7 @@ class LightVehicles {
             };
             turret[] = { 0 };
         };
-    };
+    }; // Hunter UP
 
     class B_T_Truck_03_device_F {
         aps = 4;

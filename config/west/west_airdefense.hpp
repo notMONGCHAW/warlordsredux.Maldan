@@ -112,15 +112,15 @@ class AirDefense {
         };
     }; // "IFV-6a Cheetah"
 
-    class B_SAM_System_03_F {
-        cost = 8000;
-        description = "Long range surface-to-air missile system, capable of engaging aircraft and helicopters. Effective range: >10km.";
-        killReward = 500;
-        loadable[] = {0, 0, 1};
-        offset[] = {0, 6, 0};
-        rearm = 450;
-        requirements[] = {};
-    }; // "MIM-145 Defender"
+    // class B_SAM_System_03_F {
+    //     cost = 8000;
+    //     description = "Long range surface-to-air missile system, capable of engaging aircraft and helicopters. Effective range: >10km.";
+    //     killReward = 500;
+    //     loadable[] = {0, 0, 1};
+    //     offset[] = {0, 6, 0};
+    //     rearm = 450;
+    //     requirements[] = {};
+    // }; // "MIM-145 Defender"
 
     class B_APC_Tracked_01_AA_UP_F {
         aps = 2;
@@ -154,23 +154,23 @@ class AirDefense {
         };
     };
 
-    class B_SAM_System_01_F {
-        cost = 10000;
-        description = "Short range surface-to-air missile system, capable of engaging aircraft and helicopters. Effective range: 4km.";
-        killReward = 500;
-        loadable[] = {0, -2, 0.8};
-        offset[] = {0, 5.3, 0};
-        rearm = 600;
-        requirements[] = {};
-    }; // "Mk49 Spartan"
+    // class B_SAM_System_01_F {
+    //     cost = 10000;
+    //     description = "Short range surface-to-air missile system, capable of engaging aircraft and helicopters. Effective range: 4km.";
+    //     killReward = 500;
+    //     loadable[] = {0, -2, 0.8};
+    //     offset[] = {0, 5.3, 0};
+    //     rearm = 600;
+    //     requirements[] = {};
+    // }; // "Mk49 Spartan"
 
-    class B_SAM_System_02_F {
-        cost = 15000;
-        description = "Medium range surface-to-air missile system, capable of engaging aircraft and helicopters. Effective range: ~10km.";
-        killReward = 600;
-        loadable[] = {0, -2, 1};
-        offset[] = {0, 5.3, 0};
-        rearm = 600;
-        requirements[] = {};
-    }; // "Mk21 Centurion"
+    // class B_SAM_System_02_F {
+    //     cost = 15000;
+    //     description = "Medium range surface-to-air missile system, capable of engaging aircraft and helicopters. Effective range: ~10km.";
+    //     killReward = 600;
+    //     loadable[] = {0, -2, 1};
+    //     offset[] = {0, 5.3, 0};
+    //     rearm = 600;
+    //     requirements[] = {};
+    // }; // "Mk21 Centurion"
 };
