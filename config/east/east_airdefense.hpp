@@ -50,7 +50,7 @@ class AirDefense {
             "a3\static_f_jets\aaa_system_01\data\aaa_system_01_olive_co.paa",
             "a3\static_f_jets\aaa_system_01\data\aaa_system_02_olive_co.paa"
         };
-    };
+    }; // Praetorian 1C
 
     class O_APC_Tracked_02_AA_E_F {
         aps = 2;
@@ -86,7 +86,7 @@ class AirDefense {
             };
             turret[] = { 0 };
         };
-    };
+    }; // ZSU-38 Yangtze
 
     class O_APC_Tracked_02_AA_F {
         aps = 2;
@@ -118,15 +118,15 @@ class AirDefense {
         };
     }; // "ZSU-39 Tigris"
 
-    class O_SAM_System_04_F {
-        cost = 8000;
-        description = "Long range surface-to-air missile system, capable of engaging aircraft and helicopters. Effective range: >10km.";
-        killReward = 500;
-        loadable[] = {0, 0, 1};
-        offset[] = {0, 6, 0};
-        rearm = 450;
-        requirements[] = {};
-    };  // "S-750 Rhea"
+    // class O_SAM_System_04_F {
+    //     cost = 8000;
+    //     description = "Long range surface-to-air missile system, capable of engaging aircraft and helicopters. Effective range: >10km.";
+    //     killReward = 500;
+    //     loadable[] = {0, 0, 1};
+    //     offset[] = {0, 6, 0};
+    //     rearm = 450;
+    //     requirements[] = {};
+    // };  // "S-750 Rhea"
 
     class O_APC_Tracked_02_AA_M_F {
         aps = 2;
@@ -158,35 +158,35 @@ class AirDefense {
             };
             turret[] = { 0 };
         };
-    };
+    }; // ZSU-49 Euphrates
 
-    class O_SAM_System_01_F {
-        cost = 10000;
-        description = "Short range surface-to-air missile system, capable of engaging aircraft and helicopters. Effective range: 4km.";
-        killReward = 500;
-        loadable[] = {0, -2, 0.8};
-        name = "Mk49 Spartan";
-        offset[] = {0, 5.3, 0};
-        rearm = 600;
-        requirements[] = {};
-        spawn = "B_SAM_System_01_F";
-        textures[] = {
-            "A3\Static_F_Jets\SAM_System_01\Data\SAM_system_01_olive_co.paa"
-        };
-    };
+    // class O_SAM_System_01_F {
+    //     cost = 10000;
+    //     description = "Short range surface-to-air missile system, capable of engaging aircraft and helicopters. Effective range: 4km.";
+    //     killReward = 500;
+    //     loadable[] = {0, -2, 0.8};
+    //     name = "Mk49 Spartan";
+    //     offset[] = {0, 5.3, 0};
+    //     rearm = 600;
+    //     requirements[] = {};
+    //     spawn = "B_SAM_System_01_F";
+    //     textures[] = {
+    //         "A3\Static_F_Jets\SAM_System_01\Data\SAM_system_01_olive_co.paa"
+    //     };
+    // }; // Mk49 Spartan
 
-    class O_SAM_System_02_F {
-        cost = 15000;
-        description = "Medium range surface-to-air missile system, capable of engaging aircraft and helicopters. Effective range: ~10km.";
-        killReward = 600;
-        loadable[] = {0, -2, 1};
-        name = "Mk21 Centurion";
-        offset[] = {0, 5.3, 0};
-        rearm = 600;
-        requirements[] = {};
-        spawn = "B_SAM_System_02_F";
-        textures[] = {
-            "A3\Static_F_Jets\SAM_System_02\Data\SAM_system_02_olive_co.paa"
-        };
-    };
+    // class O_SAM_System_02_F {
+    //     cost = 15000;
+    //     description = "Medium range surface-to-air missile system, capable of engaging aircraft and helicopters. Effective range: ~10km.";
+    //     killReward = 600;
+    //     loadable[] = {0, -2, 1};
+    //     name = "Mk21 Centurion";
+    //     offset[] = {0, 5.3, 0};
+    //     rearm = 600;
+    //     requirements[] = {};
+    //     spawn = "B_SAM_System_02_F";
+    //     textures[] = {
+    //         "A3\Static_F_Jets\SAM_System_02\Data\SAM_system_02_olive_co.paa"
+    //     };
+    // }; //Mk21 Centurion
 };
