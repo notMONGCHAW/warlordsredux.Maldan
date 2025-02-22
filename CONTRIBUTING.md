@@ -12,7 +12,7 @@ Thank you for your interest in contributing to our project! We welcome contribut
 
 5. Submit a Pull Request: Go to the original project repository and submit a pull request (PR) from your branch. Provide a clear and concise description of the changes you've made and explain their purpose.
 
-6. Review Process: All contributions undergo a review process to maintain the quality and integrity of the project. Our designated reviewers, Gamerdad and MrThomasM, will carefully assess your changes, provide feedback, and suggest any necessary improvements.
+6. Review Process: All contributions undergo a review process to maintain the quality and integrity of the project. Our designated reviewers, Gamerdad and The Current Developer team, will carefully assess your changes, provide feedback, and suggest any necessary improvements.
 
 7. Code security: We are far from making the mission fully secured against cheaters, but we try our hardest to make the mission more secure with each update. To avoid going one step forwards and two steps backward, no insecure code is allowed into the mission. The use of the argument that there is already insecure code in the mission to support your code being merged is something we don't believe in. We need to focus on making our security better with each update. If we do not find any other way to make the mission more secure at some point, then we can look at minimizing our vulnerabilities. But to make this point clear, at no point will insecure code be allowed in the mission.
 
