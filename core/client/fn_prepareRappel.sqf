@@ -1,11 +1,8 @@
+params ["_carrierData"];
+
 if (isDedicated) exitWith {};
 
-private _rappelPairs = [
-    ["Carrier1Rappel1Marker", Carrier1Boat1, Carrier1Tire1],
-    ["Carrier1Rappel2Marker", Carrier1Boat2, Carrier1Tire2],
-    ["Carrier1Rappel3Marker", Carrier1Boat3, Carrier1Tire3],
-    ["Carrier1Rappel4Marker", Carrier1Boat4, Carrier1Tire4]
-];
+private _rappelPairs = _carrierData # 4;
 
 {
     private _marker = _x # 0;
