@@ -174,7 +174,7 @@ class SectorDefense {
             };
             turret[] = { 0 };
         };
-    };
+    };//Mk30 HMG
 
     class O_static_AT_UP_F {
         cost = 590;
@@ -216,7 +216,7 @@ class SectorDefense {
             };
             turret[] = { 0 };
         };
-    };
+    };//Static AT Launcher (UP)
 
     class O_GMG_01_A_F {
         cost = 650;
@@ -226,7 +226,7 @@ class SectorDefense {
         offset[] = {0, 3, 0};
         rearm = 300;
         requirements[] = {};
-    };
+    }; //Mk32 GMG
 
     class Land_Communication_F {
         cost = 2500;
@@ -238,7 +238,7 @@ class SectorDefense {
         offset[] = {0, 6, 0};
         requirements[] = {};
         structure = 1;
-    };
+    }; // Jamming Tower
 
     class O_Mortar_01_F {
         cost = 4000;
@@ -248,4 +248,12 @@ class SectorDefense {
         rearm = 900;
         requirements[] = {};
     };  // "Mortar"
+
+    // class B_Ship_MRLS_01_F {
+    //     cost = 30000;
+    //     requirements[] = {};
+    //     offset[] = {0, 7, 0};
+    //     rearm = 2700;
+    //     killReward = 700;
+    // };  // "Mk41 VLS"
 };
