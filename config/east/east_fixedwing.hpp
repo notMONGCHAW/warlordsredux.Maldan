@@ -95,31 +95,31 @@ class FixedWing {
         requirements[] = {"A"};
     }; // "Y-32 Xi'an (Infantry Transport)"
 
-    class O_Plane_Fighter_03_dynamicLoadout_F {
-        cost = 15000;
-        description = "A-143 Buzzard is a light CAS aircraft.";
-        killReward = 600;
-        name = "A-143 Buzzard";
-        rearm = 900;
-        requirements[] = {"A"};
-        spawn = "I_Plane_Fighter_03_dynamicLoadout_F";
-        textures[] = {
-            "\a3\Air_F_Gamma\Plane_Fighter_03\Data\Plane_Fighter_03_body_1_brownhex_CO.paa",
-            "\a3\Air_F_Gamma\Plane_Fighter_03\Data\Plane_Fighter_03_body_2_brownhex_CO.paa"
-        };
+    // class O_Plane_Fighter_03_dynamicLoadout_F {
+    //     cost = 15000;
+    //     description = "A-143 Buzzard is a light CAS aircraft.";
+    //     killReward = 600;
+    //     name = "A-143 Buzzard";
+    //     rearm = 900;
+    //     requirements[] = {"A"};
+    //     spawn = "I_Plane_Fighter_03_dynamicLoadout_F";
+    //     textures[] = {
+    //         "\a3\Air_F_Gamma\Plane_Fighter_03\Data\Plane_Fighter_03_body_1_brownhex_CO.paa",
+    //         "\a3\Air_F_Gamma\Plane_Fighter_03\Data\Plane_Fighter_03_body_2_brownhex_CO.paa"
+    //     };
 
-        class Pilot: WLTurretDefaults {
-            addMagazines[] = {
-                "240Rnd_CMFlare_Chaff_Magazine"
-            };
-            addWeapons[] = {};
-            removeMagazines[] = {
-                "120Rnd_CMFlare_Chaff_Magazine"
-            };
-            removeWeapons[] = {};
-            turret[] = { -1 };
-        };
-    }; // "A-143 Buzzard"
+    //     class Pilot: WLTurretDefaults {
+    //         addMagazines[] = {
+    //             "240Rnd_CMFlare_Chaff_Magazine"
+    //         };
+    //         addWeapons[] = {};
+    //         removeMagazines[] = {
+    //             "120Rnd_CMFlare_Chaff_Magazine"
+    //         };
+    //         removeWeapons[] = {};
+    //         turret[] = { -1 };
+    //     };
+    // }; // "A-143 Buzzard"
 
     // class O_Plane_CAS_02_dynamicLoadout_F {
     //     cost = 20000;
