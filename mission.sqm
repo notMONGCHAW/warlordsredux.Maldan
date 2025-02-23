@@ -134,13 +134,13 @@ class ScenarioData
 {
 	author="Jezuro+WSV";
 	overviewText="Warlords Redux introduces hundreds of improvements of the original Warlords.";
-	overViewPicture="img\wl_logo_ca.paa";
+	overViewPicture="src\img\wl_logo_ca.paa";
 };
 class Mission
 {
 	class Intel
 	{
-		briefingName="Warlords 2.6.9 (Redux) | WSV";
+		briefingName="Warlords 2.6.10 (Redux) | WSV";
 		resistanceWest=0;
 		timeOfChanges=1800.0002;
 		startWeather=0.30000001;
