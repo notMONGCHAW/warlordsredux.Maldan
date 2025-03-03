@@ -248,9 +248,9 @@ class HeavyVehicles {
     //     requirements[] = {};
     //     spawn = "I_MBT_03_cannon_F";
     //     textures[] = {
-    //         "img\camo\kuma01.jpg",
-    //         "img\camo\kuma02.jpg",
-    //         "img\camo\kuma03.jpg",
+    //         "src\img\camo\kuma01.jpg",
+    //         "src\img\camo\kuma02.jpg",
+    //         "src\img\camo\kuma03.jpg",
     //         "\a3\Armor_F\Data\camonet_NATO_Desert_CO.paa"
     //     };
     //};
