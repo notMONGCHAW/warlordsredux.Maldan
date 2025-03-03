@@ -16,18 +16,18 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=75;
+		nextID=79;
 	};
 	class Camera
 	{
-		pos[]={7896.0405,40.059807,3198.3979};
-		dir[]={0,-0.70710677,0.70710683};
-		up[]={0,0.70710677,0.70710671};
-		aside[]={0.99999994,0,-0};
+		pos[]={3132.1731,273.62399,6970.4331};
+		dir[]={0.95635325,-0.16810678,0.23934986};
+		up[]={0.16311245,0.98577291,0.040821876};
+		aside[]={0.24280357,-9.2573464e-07,-0.97015351};
 	};
 };
 binarizationWanted=0;
-sourceName="-copywarlordsredux";
+sourceName="warlordsredux";
 addons[]=
 {
 	"A3_Modules_F",
@@ -445,7 +445,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={5821.0298,73.73407,3555.3391};
-			angle=2.586355;
+			angle=2.5863547;
 			class Attributes
 			{
 				sizeA=255.10594;
@@ -460,7 +460,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={3697.6836,37.967049,3259.5969};
-			angle=0.91669542;
+			angle=0.91669536;
 			class Attributes
 			{
 				sizeA=260.53046;
@@ -11462,7 +11462,7 @@ class Mission
 		class Item242
 		{
 			dataType="Trigger";
-			position[]={3003.155,22.1129,7158.2998};
+			position[]={2988.2397,22.561211,7157.3877};
 			angle=4.7337289;
 			class Attributes
 			{
@@ -11472,7 +11472,7 @@ class Mission
 			};
 			id=2719;
 			type="EmptyDetector";
-			atlOffset=10.557076;
+			atlOffset=16.613371;
 		};
 		class Item243
 		{
